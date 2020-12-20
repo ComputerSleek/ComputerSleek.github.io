@@ -1,3 +1,18 @@
-h1 {
-    color: blue;
+.bg-pink {
+    background-color: pink;
 }
+
+nav {
+    padding: 2px
+    font-size: 100px;
+}
+
+@media screen and (max-width: 768px) {
+        body {
+      background-color: rgb(223, 158, 158);
+    }
+  
+    .wrapper {
+      width: 600px;
+    }
+  }
